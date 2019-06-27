@@ -155,6 +155,9 @@ function addList(){
 }
 
 function pretraga(){
+    var par=document.createElement("p");
+    par.textContent="Pretraga je nasla:";
+    more.appendChild(par);
     var searc= document.querySelector('.search');
     var sercval= searc.value;
    var temp3=JSON.parse(window.localStorage.getItem('arr')); 
