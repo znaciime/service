@@ -163,7 +163,7 @@ function pretraga(){
    var temp3=JSON.parse(window.localStorage.getItem('arr')); 
    console.log(temp3);
    for(var i =1; i<temp3.length; i++){
-if(temp3[i].namez.includes(sercval.toLowerCase())){
+if(temp3[i].namez.includes(sercval.toLowerCase()) || temp3[i].lastname.includes(sercval.toLowerCase()) || temp3[i].marka.toLowerCase().includes(sercval.toLowerCase())){
     var blok= document.createElement('div');
     blok.setAttribute("class", "users2")
     var ids1= document.createElement('p');
