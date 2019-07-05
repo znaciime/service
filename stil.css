@@ -105,14 +105,14 @@
         float: left;
     }
     .list{
-        float: right;
+        
         display: inline;
         width: 100px;
         min-height: 50px;
         
         font-size: 1em !important;
         border-radius: 15px;
-        position: relative;
+        
         bottom: 45px !important;
     }
     .totalRIght{
@@ -290,15 +290,15 @@ textarea{
     float: left;
 }
 .list{
-    float: right;
-    display: inline;
-    width: 100px;
+   
+    
+    width: 400px;
     min-height: 50px;
     
     font-size: 1.5em;
     border-radius: 15px;
-    position: relative;
-    bottom: 75px;
+    
+    
 }
 .carinfo p{
     color: white;
